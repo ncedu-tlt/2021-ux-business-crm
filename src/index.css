@@ -1,13 +1,63 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.Banner {
+  text-align: center;
 }
+.Banner_body {
+  background-color: #f8f8f8;
+  min-height: 250px;
+  max-height: 700px;
+  color: rgb(0, 0, 0);
+  box-sizing: border-box;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  overflow: hidden;
+  padding: 20px 0;
+  position: relative;
+  
+}
+.Banner_wrapper{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.Banner_strokes {
+
+padding-left: 60px;
+  }
+
+  .banner_str_title{
+    font-size: 35px ;
+    padding: 2px ;
+    padding-bottom: 5px ;
+  }
+  .banner_str_desr{
+    font-size: 20px ;
+    line-height: 1.2;
+    padding-bottom: 10px ;
+  }
+.image {
+  max-height: 250px;
+  max-width: 450px;
+  margin: 5px;
+  background-size: cover;
+  display: flex;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+.button-order {
+  margin-top: 10px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  border-radius: 20px;
+  padding: 5px 25px;
+  font-size: 20px;
+  background: #fff;
+  border: 1px solid #151515;
+  cursor: pointer;
+}
+.img_position{
+  display: block;
+  padding-left: 65px;
 }
