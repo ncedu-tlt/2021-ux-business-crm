@@ -34,6 +34,7 @@ const Footer = ( //defolt
                     <a href="#"><img className="footer-img" src="Img/vk-alt.svg" /></a>
                     <a href="#"><img className="footer-img" src="Img/tiktok.svg" /></a>
                 </div>
+                <img className="footer-img" src="https://r58.fss.ru/files/494001/unnamed.jpg" />
             </div>
         </div>
     </footer>
