@@ -29,12 +29,11 @@ const Footer = ( //defolt
                 <div className="footer-right-column">Наш адрес</div>
                 <div className="footer-right-column">ул. Ленина д. 159 оф. 69</div>
                 <div className="footer-right-column">
-                    <a href="#"><img className="footer-img" src="Img/logo-instagram.svg" /></a>
-                    <a href="#"><img className="footer-img" src="Img/telegram.svg" /></a>
-                    <a href="#"><img className="footer-img" src="Img/vk-alt.svg" /></a>
-                    <a href="#"><img className="footer-img" src="Img/tiktok.svg" /></a>
+                    <a href="#"><img className="footer-img" src="Img/logo-instagram.svg"></img></a>
+                    <a href="#"><img src="https://r58.fss.ru/files/494001/unnamed.jpg"></img></a>
+                    <a href="#"><img className="footer-img" src="Img/vk-alt.svg"></img></a>
+                    <a href="#"><img className="footer-img" src="Img/tiktok.svg"></img></a>
                 </div>
-                <img src="https://miro.medium.com/max/1000/1*MnP5DPXdh9RJnwtwrVXl6A.jpeg" ></img>
             </div>
         </div>
     </footer>
