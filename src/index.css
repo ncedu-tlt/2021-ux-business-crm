@@ -19,6 +19,7 @@ body {
   background-color: #f8f8f8;
   margin: 0px auto 40px;
 }
+
 .menu-item:hover {
   background: rgb(204, 204, 204);
 }
