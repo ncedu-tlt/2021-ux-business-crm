@@ -4,7 +4,6 @@ import './index.css';
 const Header = () => {
    return (
       <header>
-         <div className="menu"></div>
          <nav className="menu">
             <div className="menu-item"><a href="#" className="link-item-menu">New Perceprion</a></div>
             <div className="menu-item"><a href="Port/port.jsx" className="link-item-menu">Портфолио</a></div>
