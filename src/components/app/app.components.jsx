@@ -17,4 +17,8 @@ const MainPage = () => {
    return "MainPage"
 }
 
+const NewsPage = () => {
+   return "NewsPage"
+}
+
 export default App
