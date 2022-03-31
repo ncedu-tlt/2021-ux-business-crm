@@ -7,18 +7,11 @@ const App = () => {
       <div>
          <Header />
          <Routes>
-            <Route to={"/"} element={<MainPage />}></Route>
+            <Route to={"../../pages/main/main.components.jsx"} element={<MainPage />}></Route>
+            <Route to={"../../pages/news/news.components.jsx"} element={<NewsPage />}></Route>
          </Routes>
       </div>
    )
-}
-
-const MainPage = () => {
-   return "MainPage"
-}
-
-const NewsPage = () => {
-   return "NewsPage"
 }
 
 export default App
