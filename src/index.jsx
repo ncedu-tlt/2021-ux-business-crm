@@ -5,9 +5,4 @@ import App from './components/app/app.components';
 import { BrowserRouter } from 'react-router-dom'
 
 const root = document.getElementById("root");
-/*ReactDOM.render(<Header />, root);*/
-ReactDOM.render
-   (<BrowserRouter>
-      <App />
-   </BrowserRouter>
-      , root)
+ReactDOM.render(<BrowserRouter><App /></BrowserRouter>, root)

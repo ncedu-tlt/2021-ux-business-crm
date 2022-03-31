@@ -1,6 +1,6 @@
 import React from "react";
 import './header.components.css';
-import { Link, useNavigate } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 const Header = () => {
    return (
@@ -11,13 +11,6 @@ const Header = () => {
             <div className="menu-item"><Link to="/" className="link-item-menu">Новости</Link></div>
             <div className="menu-item"><Link to="/" className="link-item-menu">О компании</Link></div>
             <div className="menu-item"><Link to="/" className="link-item-menu">Заказать</Link></div>
-            {/* Some JS Code 
-
-            <div className="menu-item"><a href="Port/port.jsx" className="link-item-menu">Портфолио</a></div>
-            <div className="menu-item"><a href="News/news.jsx" className="link-item-menu">Новости</a></div>
-            <div className="menu-item"><a href="About/about.jsx" className="link-item-menu">О компании</a></div>
-            <div className="menu-item"><a href="Order/order.jsx" className="link-item-menu">Заказать</a></div>
-            */}
          </nav>
       </header>
    )
