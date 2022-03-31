@@ -1,6 +1,6 @@
 import React from 'react';
 import * as ReactDOM from 'react-dom';
-import './Banner.components.css';
+import './banner.component.css';
 
 
 const Banner = () => {
