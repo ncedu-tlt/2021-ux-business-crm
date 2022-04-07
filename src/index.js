@@ -1,17 +1,48 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React, { useState } from "react";
+import ReactDOM from "react-dom";
+import Carousel from "react-elastic-carousel";
+import Item from "./Item";
+import "./styles.css";
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+const breakPoints = [
+  { width: 1, itemsToShow: 1 },
+  { width: 550, itemsToShow: 2, itemsToScroll: 2 },
+  { width: 768, itemsToShow: 3 },
+  //{ width: 1200, itemsToShow: 4 }
+];
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+function App() {
+  const [items, setItems] = useState([1, 2, 3, 4, 5, 6]);
+
+  //const addItem = () => {
+    //const nextItem = Math.max(1, items.length + 1);
+    //setItems([...items, nextItem]);
+  //};
+
+  //const removeItem = () => {
+    //const endRange = Math.max(0, items.length - 1);
+    //setItems(items.slice(0, endRange));
+  //};
+
+  return (
+    <div className="App">
+      <div className="font"> Портфолио </div>
+      {/*<div className="controls-wrapper">
+        <button onClick={removeItem}>Remove Item</button>
+        <button onClick={addItem}>Add Item</button>
+      </div>*/}
+      <hr className="seperator" />
+      <div> Пару слов </div>
+      <div className="carousel-wrapper">
+        <Carousel breakPoints={breakPoints}>
+          {items.map((item) => (
+            <Item key={item}>{item}</Item>
+          ))}
+        </Carousel>
+      </div>
+    </div>
+  );
+}
+
+const rootElement = document.getElementById("root");
+ReactDOM.render(<App />, rootElement);
