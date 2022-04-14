@@ -1,9 +1,9 @@
-// import React from "react";
-// import './news.components.css';
+import React from "react";
+import './news.components.css';
 
-// const NewsPage = () => {
-//     return "NewsPage"
-// }
+const NewsPage = () => {
+   return "NewsPage"
+}
 
 
-// export default NewsPage
+export default NewsPage
