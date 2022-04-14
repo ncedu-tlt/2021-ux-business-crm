@@ -3,7 +3,7 @@ import './main.components.css';
 
 
 const MainPage = () => {
-   return "MainPage"
+   return <div className="main"></div>
 }
 
 
