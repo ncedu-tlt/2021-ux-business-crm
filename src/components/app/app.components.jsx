@@ -1,6 +1,8 @@
 import React from "react";
 import { Routes, Route } from 'react-router-dom'
 import Header from "../header/header.components.jsx";
+import MainPage from "../../pages/main/main.components.jsx"
+import NewsPage from "../../pages/news/news.components.jsx";
 
 
 
