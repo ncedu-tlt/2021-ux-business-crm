@@ -1,0 +1,63 @@
+.Banner {
+  text-align: center;
+}
+.Banner_body {
+  background-color: #f8f8f8;
+  min-height: 250px;
+  max-height: 700px;
+  color: rgb(0, 0, 0);
+  box-sizing: border-box;
+
+  overflow: hidden;
+  padding: 20px 0;
+  position: relative;
+  
+}
+.Banner_insider_box{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.Banner_row {
+
+padding-left: 60px;
+  }
+
+  .Banner_title{
+    font-size: 35px ;
+    padding: 2px ;
+    padding-bottom: 5px ;
+  }
+  .Banner_desr{
+    font-size: 20px ;
+    line-height: 1.2;
+    padding-bottom: 10px ;
+  }
+.Image {
+  max-height: 250px;
+  max-width: 450px;
+  margin: 5px;
+  background-size: cover;
+  display: flex;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+.Button_order {
+  margin-top: 10px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  border-radius: 20px;
+  padding: 5px 25px;
+  font-size: 20px;
+  background: #fff;
+  border: 1px solid #151515;
+  cursor: pointer;
+}
+.Banner_position{
+  display: block;
+  padding-left: 65px;
+}
