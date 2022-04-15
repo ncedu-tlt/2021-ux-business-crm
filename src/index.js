@@ -12,7 +12,8 @@ const breakPoints = [
 ];
 
 function App() {
-  const [items, setItems] = useState([1, 2, 3, 4, 5, 6]);
+  const [items, setItems] = useState([{item: 1, link: "Название1"}, {item: 2, link: "Название2"}, {item: 3, link: "Название3"}, {item: 4, link: "Название4"}, {item: 5, link: "Название5"}, {item: 6, link: "Название6"}]);
+  const links = ["Название1", "Название2", "Название3", "Название4", "Название5", "Название6"];
 
   //const addItem = () => {
     //const nextItem = Math.max(1, items.length + 1);
@@ -36,7 +37,10 @@ function App() {
       <div className="carousel-wrapper">
         <Carousel breakPoints={breakPoints}>
           {items.map((item) => (
-            <Item key={item}>{item}</Item>
+            <div style={{width: "100%", display: "flex", flexDirection:"column", alignItems: "center", marginLeft: "10px"}}>
+            <Item key={item.item}>{item.item}</Item>
+            <a href="/">{item.link}</a>
+            </div>
           ))}
         </Carousel>
       </div>
