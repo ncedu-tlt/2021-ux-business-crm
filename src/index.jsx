@@ -1,6 +1,7 @@
 import React from 'react';
 import * as ReactDOM from 'react-dom';
-import Banner from './components/banner/banner.component';
+import Feedback from './components/feedback/feedback.component';
+import {render} from 'react-dom'
 
-const root = document.getElementById("root");
-ReactDOM.render(<Banner />, root);
+
+render(<Feedback />, document.getElementById("root"))
