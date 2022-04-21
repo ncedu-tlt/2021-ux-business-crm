@@ -7,31 +7,16 @@ import "./styles.css";
 const breakPoints = [
   { width: 1, itemsToShow: 1 },
   { width: 550, itemsToShow: 2, itemsToScroll: 2 },
-  { width: 768, itemsToShow: 3 },
-  //{ width: 1200, itemsToShow: 4 }
+  { width: 768, itemsToShow: 3 }
 ];
 
 function App() {
-  const [items, setItems] = useState([{item: 1, link: "Название1"}, {item: 2, link: "Название2"}, {item: 3, link: "Название3"}, {item: 4, link: "Название4"}, {item: 5, link: "Название5"}, {item: 6, link: "Название6"}]);
+  const [items] = useState([{item: 1, link: "Название1"}, {item: 2, link: "Название2"}, {item: 3, link: "Название3"}, {item: 4, link: "Название4"}, {item: 5, link: "Название5"}, {item: 6, link: "Название6"}]);
   const links = ["Название1", "Название2", "Название3", "Название4", "Название5", "Название6"];
-
-  //const addItem = () => {
-    //const nextItem = Math.max(1, items.length + 1);
-    //setItems([...items, nextItem]);
-  //};
-
-  //const removeItem = () => {
-    //const endRange = Math.max(0, items.length - 1);
-    //setItems(items.slice(0, endRange));
-  //};
 
   return (
     <div className="App">
       <div className="font"> Портфолио </div>
-      {/*<div className="controls-wrapper">
-        <button onClick={removeItem}>Remove Item</button>
-        <button onClick={addItem}>Add Item</button>
-      </div>*/}
       <hr className="seperator" />
       <div> Пару слов </div>
       <div className="carousel-wrapper">
