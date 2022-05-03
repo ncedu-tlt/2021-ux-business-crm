@@ -8,7 +8,7 @@ import { ReactComponent as VKIcon } from '../../Img/vk-alt.svg';
 import { ReactComponent as TikTiokIcon } from '../../Img/tiktok.svg';
 import './index.css'
 
-const Footer = () => { //defolt
+const Footer = () => { 
     return(
     <footer>
         <div className="footer-cont">
