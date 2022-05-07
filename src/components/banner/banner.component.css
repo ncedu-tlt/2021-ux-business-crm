@@ -1,7 +1,7 @@
-.Banner {
+.banner {
     text-align: center;
   }
-  .Banner_body {
+  .banner_body {
     background-color: #f8f8f8;
     min-height: 250px;
     max-height: 700px;
@@ -13,28 +13,28 @@
     position: relative;
     
   }
-  .Banner_insider_box{
+  .banner_insider_box{
     display:flex;
     align-items: center;
     justify-content: center;
   
   }
-  .Banner_row {
+  .banner_row {
   
   padding-left: 60px;
     }
   
-    .Banner_title{
+    .banner_title{
       font-size: 35px ;
       padding: 2px ;
       padding-bottom: 5px ;
     }
-    .Banner_desr{
+    .banner_desr{
       font-size: 20px ;
       line-height: 1.2;
       padding-bottom: 10px ;
     }
-  .Image {
+  .image {
     max-height: 250px;
     max-width: 450px;
     margin: 5px;
@@ -46,7 +46,7 @@
     padding-bottom: 20px;
   
   }
-  .Button_order {
+  .button_order {
     margin-top: 10px;
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
@@ -57,7 +57,7 @@
     border: 1px solid #151515;
     cursor: pointer;
   }
-  .Banner_position{
+  .banner_position{
     display: block;
     padding-left: 65px;
   }

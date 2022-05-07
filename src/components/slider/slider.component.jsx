@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import ReactDOM from "react-dom";
 import Carousel from "react-elastic-carousel";
-import "./slider.components.css";
+import "./slider.component.css";
 import styled from "styled-components";
 
 const Item = styled.div`
@@ -28,7 +28,7 @@ function Slider() {
 
 
   return (
-    <div className="Slider">
+    <div className="slider">
       <div className="font"> Портфолио </div>
 
       <hr className="seperator" />

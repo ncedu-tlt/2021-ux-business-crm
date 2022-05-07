@@ -1,4 +1,4 @@
-import './feedback.components.css';
+import './feedback.component.css';
 import "yup-phone";
 import React from 'react';
 import { Formik, Form, Field } from 'formik';
