@@ -1,14 +1,14 @@
 import React from 'react';
 import * as ReactDOM from 'react-dom';
-import { ReactComponent as EmailIcon } from '../../Img/email.svg';
-import { ReactComponent as TelephoneIcon } from '../../Img/telephone-call.svg';
-import { ReactComponent as InstagramIcon } from '../../Img/logo-instagram.svg';
-import { ReactComponent as TelegramIcon } from '../../Img/telegram.svg';
-import { ReactComponent as VKIcon } from '../../Img/vk-alt.svg';
-import { ReactComponent as TikTiokIcon } from '../../Img/tiktok.svg';
-import './index.css'
+import { ReactComponent as EmailIcon } from '../../img/email.svg';
+import { ReactComponent as TelephoneIcon } from '../../img/telephone-call.svg';
+import { ReactComponent as InstagramIcon } from '../../img/logo-instagram.svg';
+import { ReactComponent as TelegramIcon } from '../../img/telegram.svg';
+import { ReactComponent as VKIcon } from '../../img/vk-alt.svg';
+import { ReactComponent as TikTiokIcon } from '../../img/tiktok.svg';
+import './footer.component.css';
 
-const Footer = () => { //defolt
+const Footer = () => { 
     return(
     <footer>
         <div className="footer-cont">
