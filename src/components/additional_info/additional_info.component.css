@@ -1,0 +1,38 @@
+.wrapper{
+    font-family: 'Times New Roman', Times, serif;
+}
+.info{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.video{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.description{
+    font-size: 150%;
+    margin-top: 1%;
+}
+.description_1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.description_2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.description_3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.description_4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
