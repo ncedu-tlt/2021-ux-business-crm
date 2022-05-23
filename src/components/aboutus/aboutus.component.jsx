@@ -1,13 +1,15 @@
 import React from "react";
-import './aboutus.components.css';
-import { ReactComponent as Us } from '../../Img/us.jpg';
+import './aboutus.component.css';
+import Personal from '../../Img/us.jpg';
 
 const Aboutus = () => {
    return (
       <div className="wrapper">
-         <div className="text">Наша компания занимается разработкой VR/AR приложений. С 2021 года мы являемся лидером в сфере AR</div>
+         <div className="title">Про нашу команду</div>
+         <div className="text">Наша компания занимается разработкой VR/AR приложений.</div>
+         <div className="text">С 2021 года мы являемся лидером в сфере AR</div>
          <div className="image">
-            <Us className='aboutus__img' />
+            <img src={Personal} className='aboutus__img' alt="it's me" />
          </div>
       </div>
    )
