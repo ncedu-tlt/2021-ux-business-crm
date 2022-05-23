@@ -2,7 +2,7 @@ import React from "react";
 import './aboutus.component.css';
 import Personal from '../../Img/us.jpg';
 
-const Aboutus = () => {
+const AboutUs = () => {
    return (
       <div className="wrapper">
          <div className="title">Про нашу команду</div>
@@ -15,4 +15,4 @@ const Aboutus = () => {
    )
 }
 
-export default Aboutus
+export default AboutUs
