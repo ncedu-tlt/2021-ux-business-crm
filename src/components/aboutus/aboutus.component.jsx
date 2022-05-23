@@ -2,7 +2,7 @@ import React from "react";
 import './aboutus.components.css';
 import { ReactComponent as Us } from '../../Img/us.jpg';
 
-const aboutus = () => {
+const Aboutus = () => {
    return (
       <div className="wrapper">
          <div className="text">Наша компания занимается разработкой VR/AR приложений. С 2021 года мы являемся лидером в сфере AR</div>
@@ -13,4 +13,4 @@ const aboutus = () => {
    )
 }
 
-export default aboutus
+export default Aboutus
