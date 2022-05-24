@@ -16,22 +16,22 @@
     font-size: 150%;
     margin-top: 1%;
 }
-.description_1{
+.description__1{
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.description_2{
+.description__2{
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.description_3{
+.description__3{
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.description_4{
+.description__4{
     display: flex;
     align-items: center;
     justify-content: center;
