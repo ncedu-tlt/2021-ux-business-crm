@@ -2,7 +2,7 @@ import React from "react";
 import './news.components.css';
 
 const NewsPage = () => {
-   return <div className="news"></div>
+   return <div className="news">News page</div>
 }
 
 
