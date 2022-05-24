@@ -9,7 +9,7 @@ const Header = () => {
             <div className="menu-item"><Link to="/" className="link-item-menu">New Perceprion</Link></div>
             <div className="menu-item"><Link to="/" className="link-item-menu">Портфолио</Link></div>
             <div className="menu-item"><Link to="/" className="link-item-menu">Новости</Link></div>
-            <div className="menu-item"><Link to="../pages/about-company/about-company.component.jsx" className="link-item-menu">О компании</Link></div>
+            <div className="menu-item"><Link to="../../pages/about-company/about-company.component.jsx" className="link-item-menu">О компании</Link></div>
             <div className="menu-item"><Link to="/" className="link-item-menu">Заказать</Link></div>
          </nav>
       </header>
