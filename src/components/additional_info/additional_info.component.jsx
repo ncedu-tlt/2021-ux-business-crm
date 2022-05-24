@@ -10,9 +10,6 @@ const AdditionalInfo = () => {
                 <h1>О дополненной реальности пару слов</h1>
             </div>
             <div className='video'>
-                {/* <video width="920" height="480" controls="true">
-                    <source src="https://youtu.be/cNStlZljJIc" type="video/mp4" />
-                </video> */}
                 <ReactPlayer url="https://youtu.be/cNStlZljJIc" controls={true} />
             </div>
             <div className='description'>
