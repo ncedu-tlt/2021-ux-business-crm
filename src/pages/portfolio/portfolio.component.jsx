@@ -1,17 +1,18 @@
 import React from "react";
-import './news.components.css';
+import './portfolio.component.css';
 import Header from "../../сomponents/header/header.component";
+import Slider from "../../сomponents/slider/slider.component";
 import Footer from "../../сomponents/footer/footer.component";
 
-const NewsPage = () => {
+const Portfolio = () => {
    return (
-      <div className="news">
+      <div className="wrapper">
          <Header />
-         <div className="text">Тут можно будут новости</div>
+         <Slider />
          <Footer />
       </div>
    )
 }
 
 
-export default NewsPage
+export default Portfolio

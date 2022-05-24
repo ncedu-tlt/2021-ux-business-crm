@@ -1,17 +1,18 @@
 import React from "react";
-import './news.components.css';
+import './order.component.css';
 import Header from "../../сomponents/header/header.component";
 import Footer from "../../сomponents/footer/footer.component";
 
-const NewsPage = () => {
+
+const Order = () => {
    return (
-      <div className="news">
+      <div className="order">
          <Header />
-         <div className="text">Тут можно будут новости</div>
+         <div className="text">Тут можно будет сделать заказ</div>
          <Footer />
       </div>
    )
 }
 
 
-export default NewsPage
+export default Order
