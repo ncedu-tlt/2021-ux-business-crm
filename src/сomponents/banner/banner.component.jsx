@@ -5,7 +5,7 @@ import './banner.component.css';
 
 const Banner = () => {
 
- return (
+  return (
     <div className="banner_body">
       <div className="banner_insider_box">
         <div className="banner_row">
