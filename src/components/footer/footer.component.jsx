@@ -38,7 +38,7 @@ const Footer = () => {
                         <a href="#"><InstagramIcon className='footer-img' /></a>
                         <a href="#"><TelegramIcon className='footer-img' /></a>
                         <a href="#"><VKIcon className='footer-img' /></a>
-                        {/* <a href="#"><TikTiokIcon className='footer-img' /></a> */}
+                        <a href="#"><TikTiokIcon className='footer-img' /></a>
                     </div>
                 </div>
             </div>
