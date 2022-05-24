@@ -1,8 +1,11 @@
-import Additional_info from "../../Components/additional_info/additional_info.component"
+import React from 'react';
+import AdditionalInfo from '../../components/additional_info/additional_info.component';
 
-const AdditionalInfo = ()=>{
-    return(
-        <div><Additional_info></Additional_info></div>
+const Additional_Info = () => {
+    return (
+        <div>
+            <AdditionalInfo />
+        </div>
     )
 }
-export default AdditionalInfo
+export default Additional_Info

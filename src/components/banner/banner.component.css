@@ -57,6 +57,10 @@
     border: 1px solid #151515;
     cursor: pointer;
   }
+  .button_order:hover {
+    background: #cbcbcb;
+  }
+
   .banner_position{
     display: block;
     padding-left: 65px;
