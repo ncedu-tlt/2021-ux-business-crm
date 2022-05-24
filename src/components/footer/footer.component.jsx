@@ -5,7 +5,7 @@ import { ReactComponent as TelephoneIcon } from '../../img/telephone-call.svg';
 import { ReactComponent as InstagramIcon } from '../../img/instagram.svg';
 import { ReactComponent as TelegramIcon } from '../../img/telegram.svg';
 import { ReactComponent as VKIcon } from '../../img/vk-alt.svg';
-import { ReactComponent as TikTiokIcon } from '../../img/tiktok.svg';
+// import { ReactComponent as TikTiokIcon } from '../../img/tiktok.svg';
 import './footer.component.css';
 
 const Footer = () => {
@@ -38,7 +38,7 @@ const Footer = () => {
                         <a href="#"><InstagramIcon className='footer-img' /></a>
                         <a href="#"><TelegramIcon className='footer-img' /></a>
                         <a href="#"><VKIcon className='footer-img' /></a>
-                        <a href="#"><TikTiokIcon className='footer-img' /></a>
+                        {/* <a href="#"><TikTiokIcon className='footer-img' /></a> */}
                     </div>
                 </div>
             </div>
