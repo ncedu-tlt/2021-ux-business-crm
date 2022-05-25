@@ -6,6 +6,7 @@ import AboutCompany from "../../pages/about-company/about-company.component.jsx"
 import NewsPage from "../../pages/news/news.components";
 import Portfolio from "../../pages/portfolio/portfolio.component";
 import OrderPage from "../../pages/order/order.component.jsx";
+import Footer from "../footer/footer.component.jsx";
 
 const App = () => {
     return (
@@ -18,6 +19,7 @@ const App = () => {
                 <Route path="/about-us" element={<AboutCompany />}></Route>
                 <Route path="/order" element={<OrderPage />}></Route>
             </Routes>
+            <Footer />
         </div>
     )
 }
