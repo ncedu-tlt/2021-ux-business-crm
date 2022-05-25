@@ -4,7 +4,7 @@ import Header from "../../сomponents/header/header.component";
 import Footer from "../../сomponents/footer/footer.component";
 
 
-const Order = () => {
+const OrderPage = () => {
    return (
       <div className="order">
          <Header />
@@ -15,4 +15,4 @@ const Order = () => {
 }
 
 
-export default Order
+export default OrderPage
