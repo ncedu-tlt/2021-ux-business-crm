@@ -1,21 +1,25 @@
 import React from "react";
-import { Routes, Route } from 'react-router-dom'
+import { Route, Routes } from 'react-router-dom'
 import Header from "../header/header.component.jsx";
 import MainPage from "../../pages/main/main.components.jsx"
-import NewsPage from "../../pages/news/news.components.jsx";
-import Additional_Info from "../../pages/additional_info/additional_info.component";
-
-
+import AboutCompany from "../../pages/about-company/about-company.component.jsx";
+import NewsPage from "../../pages/news/news.components";
+import Portfolio from "../../pages/portfolio/portfolio.component";
+import OrderPage from "../../pages/order/order.component.jsx";
+import Footer from "../footer/footer.component.jsx";
 
 const App = () => {
    return (
       <div>
-         {/* <Header />
+         <Header />
          <Routes>
-            <Route path="../../pages/main/main.components.jsx" element={<MainPage />}></Route>
-            <Route path="../../pages/news/news.components.jsx" element={<NewsPage />}></Route>
-         </Routes> */}
-         <MainPage />
+            <Route path="/" exact element={<MainPage />}></Route>
+            <Route path="/portfolio" element={<Portfolio />}></Route>
+            <Route path="/news" element={<NewsPage />}></Route>
+            <Route path="/about-us" element={<AboutCompany />}></Route>
+            <Route path="/order" element={<OrderPage />}></Route>
+         </Routes>
+         <Footer />
       </div>
    )
 }
