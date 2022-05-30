@@ -1,0 +1,38 @@
+.wrapper{
+    font-family: 'Times New Roman', Times, serif;
+    }
+    .info{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .video{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .description{
+    font-size: 150%;
+    margin-top: 1%;
+    }
+    .description__1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .description__2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .description__3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .description__4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
