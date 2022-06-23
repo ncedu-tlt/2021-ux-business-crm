@@ -27,7 +27,7 @@ const Footer = () => {
                         <div className="footer-left-column-text">+7 964 97 04 71</div>
                     </div>
                     <div className="footer-left-column">
-                        <div className="footer-left-column-text">Имя сайта</div>
+                        <div className="footer-left-column-text">New Perception</div>
                     </div>
                 </div>
                 <div className="footer-items-case">
