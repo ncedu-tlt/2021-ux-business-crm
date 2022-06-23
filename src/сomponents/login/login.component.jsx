@@ -3,7 +3,7 @@ import "yup-phone";
 import React from 'react';
 import { Formik, Form, Field } from 'formik';
 import * as Yup from 'yup';
-import {Navigate, useNavigate} from "react-router-dom"; 
+import {Navigate, useNavigate} from "react-router-dom";
 import database from "./Database.json";
 
 
@@ -45,24 +45,18 @@ const Login = () => {
           }}
           validationSchema={SignupSchema}
           onSubmit={values => {
-
-            console.log("values",values);
-            console.log("database",database["login_admin"][0].login === values.email);
             if (database["login_admin"][0].login !== values.email){
               return;
             }
             if (database["login_admin"][0].password !== values.password){
               return;
             }
-            
+
             localStorage.setItem("isLogged","true")
             navigate("/");
           }}
         >
           {({ errors, touched }) => {
-            console.log(touched);
-            console.log(errors);
-
             return (
               <Form  >
                 <div className='field_wrapper'>
