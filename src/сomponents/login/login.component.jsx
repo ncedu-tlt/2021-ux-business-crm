@@ -3,8 +3,8 @@ import "yup-phone";
 import React from 'react';
 import { Formik, Form, Field } from 'formik';
 import * as Yup from 'yup';
-
-
+import {Navigate, useNavigate} from "react-router-dom"; 
+import database from "./Database.json";
 
 
 
@@ -16,17 +16,18 @@ const SignupSchema = Yup.object().shape({
     .required('Обязательное для заполнения'),
 
   password: Yup.string()
-    .min(5, 'Слишком короткое название')
-    .max(10, 'Слишком длинное название')
+    .min(5, 'Слишком короткий пароль')
+    .max(30, 'Слишком длинный пароль')
     .required('Обязательное для заполнения'),
 
   checkbox: Yup.boolean()
-    .oneOf([true], 'Пожалуйста, подтвердите свое согласие')
-    .required("Пожалуйста, подтвердите свое согласие"),
+
 
 });
 
-const Login = () => (
+const Login = () => {
+  let navigate = useNavigate();
+  return (
   <div className='login'>
     <div className='container1'>
       <div className='container2'>
@@ -45,7 +46,17 @@ const Login = () => (
           validationSchema={SignupSchema}
           onSubmit={values => {
 
-            console.log(values);
+            console.log("values",values);
+            console.log("database",database["login_admin"][0].login === values.email);
+            if (database["login_admin"][0].login !== values.email){
+              return;
+            }
+            if (database["login_admin"][0].password !== values.password){
+              return;
+            }
+            
+            localStorage.setItem("isLogged","true")
+            navigate("/");
           }}
         >
           {({ errors, touched }) => {
@@ -53,7 +64,7 @@ const Login = () => (
             console.log(errors);
 
             return (
-              <Form >
+              <Form  >
                 <div className='field_wrapper'>
                   <div className='icon_email'>
                     <Field className='field'
@@ -69,7 +80,8 @@ const Login = () => (
                   <div className='icon_password'>
                     <Field className='field'
                       placeholder='ВАШ ПАРОЛЬ'
-                      name="company" />
+                      type="password"
+                      name="password" />
                     {errors.password && touched.password ? (
                       <div className='error'>{errors.password}</div>
                     ) : null}
@@ -91,8 +103,8 @@ const Login = () => (
     </div>
   </div>
 
+)
 
-
-);
+};
 
 export default Login;
