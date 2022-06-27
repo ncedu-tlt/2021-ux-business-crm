@@ -39,12 +39,12 @@ const AboutUs = () => {
                <div>
                   <img src={Andrew} alt="Andrew Schevchenko" />
                   <span>Андрей Шевченко</span><br />
-                  <span>Тестеровщик, Backend</span>
+                  <span>Тестировщик, Backend</span>
                </div>
                <div>
                   <img src={Pavlyuk} alt="Artem Pavlenko" />
                   <span>Артём Павленко</span><br />
-                  <span>Тестеровщик, Frontend</span>
+                  <span>Тестировщик, Frontend</span>
                </div>
                <div>
                   <img src={Abdunami} alt="Abdunaim Hazratkulov" />
