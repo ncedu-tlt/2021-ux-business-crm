@@ -11,9 +11,8 @@
 .menu__nav {
   display: flex;
   flex-wrap: wrap;
-  max-width: 1280px;
   background-color: #1b417f;
-  margin: 0px auto 40px;
+  margin: 0px auto 0px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
