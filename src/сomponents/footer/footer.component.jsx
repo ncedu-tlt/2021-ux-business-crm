@@ -35,7 +35,6 @@ const Footer = () => {
                     <div className="footer-right-column">Наш адрес</div>
                     <div className="footer-right-column">ул. Ленина д. 159 оф. 69</div>
                     <div className="footer-right-column">
-                        <a href="#"><InstagramIcon className='footer-img' /></a>
                         <a href="#"><TelegramIcon className='footer-img' /></a>
                         <a href="#"><VKIcon className='footer-img' /></a>
                         <a href="#"><TikTiokIcon className='footer-img' /></a>
