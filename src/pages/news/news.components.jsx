@@ -5,7 +5,9 @@ import Newsbanner from "../../сomponents/news-banner/newsbanner.component";
 const NewsPage = () => {
    return (
       <div className="news">
-         <div className="text">Новости</div>
+         <div className="news_title">Новости</div>
+         <Newsbanner/>
+         <Newsbanner/>
          <Newsbanner/>
       </div>
    )

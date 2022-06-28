@@ -1,0 +1,11 @@
+.news_title {
+    padding-top: 2.5rem;
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+}
+.news {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

@@ -17,11 +17,11 @@ function ReadMore({ children = 0 }) {
     return (
         <p>
             {result}
-            <p>
+            <div className="button_potistion">
                 <buttom className="button_show" onClick={toggleIsShow}>
                     {isShow ? "Read More" : "Read Less"}
                 </buttom>
-            </p>
+            </div>
         </p>
     )
 }
@@ -31,8 +31,8 @@ const newsbanner = () => {
     return (
         <div className="banners_position">
             <Container className="banner_wrapper">
-            <img className="image_news" src="https://www.monnalisa-project.eu/wp-content/uploads/2016/08/meeting.jpg" >
-            </img>
+                <img className="image_news" src="https://www.monnalisa-project.eu/wp-content/uploads/2016/08/meeting.jpg" >
+                </img>
                 <div>Аннотация новости/статьи</div>
                 <ReadMore>
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard

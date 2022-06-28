@@ -1,13 +1,17 @@
 .button_show {
-    margin-top: 10px;
-    -webkit-transition-duration: 0.4s;
-    transition-duration: 0.4s;
-    border-radius: 20px;
-    padding: 5px 25px;
-    font-size: 20px;
-    background: #fff;
-    border: 1px solid #151515;
-    cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  border-radius: 20px;
+  padding: 5px 25px;
+  font-size: 20px;
+  background: #fff;
+  border: 1px solid #151515;
+  cursor: pointer;
+}
+
+.button_potistion {
+    display: flex;
+    max-height: 40px;
 }
 
 .banner_wrapper {
@@ -19,12 +23,13 @@
     flex-direction: column;
     justify-content: center;
 }
-.banners_position{
+
+.banners_position {
     display: flex;
-  justify-content: center;
+    justify-content: center;
 }
 
-.image_news{
+.image_news {
     max-height: 250px;
     max-width: 450px;
     margin: 5px;
