@@ -1,7 +1,7 @@
 import React from 'react';
 import * as ReactDOM from 'react-dom';
 import './banner.component.css';
-
+import NPr from '../../img/new_product.jpg'
 
 const Banner = () => {
 
@@ -16,7 +16,7 @@ const Banner = () => {
           </div>
         </div>
         <div className='banner_position'>
-          <img className='image' src="https://miro.medium.com/max/1000/1*MnP5DPXdh9RJnwtwrVXl6A.jpeg" >
+          <img className='image' src={NPr} >
           </img>
         </div>
       </div>

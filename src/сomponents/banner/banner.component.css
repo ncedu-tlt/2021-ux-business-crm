@@ -58,7 +58,10 @@ border: 1px solid #151515;
 cursor: pointer;
 float: left;
 }
-
+.button_order:hover{
+  background: #151515;
+  color: #fff;
+}
 .banner_position{
 display: block;
 padding-left: 65px;
@@ -107,6 +110,7 @@ padding-left: 65px;
   padding-right: 30px;
   padding-top: 20px;
   padding-bottom: 20px;
+  border-radius: 50px;
 }
 
 .button_order {

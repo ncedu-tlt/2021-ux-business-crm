@@ -63,5 +63,6 @@ ul {
    height: 375px;
    width: 375px;
    margin: 10px;
+   overflow: hidden;
    /* background-color: #ff9700; */
 }
