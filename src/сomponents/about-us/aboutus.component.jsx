@@ -1,6 +1,6 @@
 import React from "react";
 import './aboutus.component.css';
-import Personal from '../../img/us.jpg';
+import Personal from '../../img/example.jpg';
 import Maxim from '../../img/slide1.jpg'
 import Bochka from '../../img/slide2.jpg'
 import Andrew from '../../img/slide3.jpg'
@@ -11,7 +11,7 @@ import Vladik from '../../img/slide6.jpg'
 const AboutUs = () => {
    return (
       <div className="wrapper">
-         <div className="title">Про нашу компанию</div>
+         <div className="title">Наша компания</div>
          <img src={Personal} className='aboutus__img' alt="it's me" />
          <div className="text">
             <span className="important__text">Наша компания</span> занимается разработкой VR/AR приложений. Мы являемся <span className="important__text">лидером</span> на региональном рынке.<br />
