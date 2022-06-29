@@ -36,7 +36,7 @@ function Slider() {
       <div className="carousel-wrapper">
         <Carousel breakPoints={breakPoints}>
           {items.map((item) => (
-            <div style={{ width: "100%", display: "flex", flexDirection: "column", alignItems: "center", marginLeft: "10px" }}>
+            <div style={{ width: "100%", display: "flex", flexDirection: "column", alignItems: "center", marginLeft: "10px", overflow: "hidden" }}>
               <Item key={item.item}>{item.item}</Item>
               <a href="/">{item.link}</a>
             </div>
